@@ -23,24 +23,25 @@ body {
 
 .col-header {
   width: 140px;
-  box-shadow: 9px 9px 9px rgba(226, 168, 216, 0.904);
+  box-shadow: 9px 3px 9px rgba(226, 168, 216, 0.904);
   border-radius: 30px;
   padding: 0.9rem 1rem;
   color: #fff;
   text-align: center;
-  color: rgba(14, 3, 44, 0.36);
+  /*  color: rgb(255, 255, 255); */
   font-size: large;
 }
 
 .item {
   width: 150px;
   height: 66px;
-  border: 1px solid #eee;
-  box-shadow: 4px 4px 9px rgba(218, 56, 56, 0.36);
+  border: 1px solid rgb(241, 235, 235);
+  box-shadow: 4px 4px 9px rgba(131, 127, 127, 0.36);
   border-radius: 20px;
-  background: #f7f6f7;
+  /*  //background: #f7f6f7;// */
+  background: linear-gradient(90deg, #85ffa4 0%, #229efd 179.25%);
   padding: 0.8rem 1rem;
-  color: #828282;
+  color: #e70619;
   text-align: center;
   cursor: grab;
 }
@@ -55,19 +56,19 @@ body {
 }
 
 .start {
-  background: linear-gradient(90deg, #ff85e4 0%, #229efd 179.25%);
+  background: linear-gradient(90deg, #fa6666 0%, #229efd 179.25%);
 }
 
 .progress {
-  background: linear-gradient(90deg, #209cff 0%, #68e0cf 100%);
+  background: linear-gradient(90deg, #fa6666 0%, #68e0cf 100%);
 }
 
 .done {
-  background: linear-gradient(90deg, #84fab0 0%, #8fd3f4 100%);
+  background: linear-gradient(90deg, #fa6666 0%, #8fd3f4 100%);
 }
 
 .hold {
-  border: 5px solid red;
+  border: 2px solid rgb(179, 176, 176);
 }
 
 .hide {
@@ -75,5 +76,5 @@ body {
 }
 
 .hovered {
-  border-top: 2px solid blue;
+  border-top: 2px solid rgb(188, 188, 245);
 }
